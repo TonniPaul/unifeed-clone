@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    text-align: left;
+    color: #989898;
+    padding: 1em;
+}
+h1,h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+p{
+    margin: 0;
+}
+/* =========CONTAINERS=========== */
+.container{
+    padding: .5em 1em;
+}
+.cont{
+    padding: 0;
+}
+#navigation{
+    padding-top: 0;
+}
+
+/* ======IMAGES========= */
+.unilogo{
+    margin-left: 0;
+    padding-left: 0;
+}
+.articleimg{
+    width: 100%;
+    padding: 1em 0;
+}
+.authorimg{
+    align-self: center;
+    width: 20%;
+    margin: 0;
+}
+/* =========Author======== */
+.authorname{
+    margin-left: 1em;
+    align-self: center;
+}
+.author{
+    display: flex;
+    align-items: flex-start;
+    padding: 2em 1em 1em 0;
+    box-sizing: border-box;
+    width: 350px;
+}
+.artauthor{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.name{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+/* ==========FOOTER============ */
+#footer{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    justify-content: space-between;
+    padding: 5em 1em 1em;
+}
+.footer-img{
+    width: 100px;
+}
+.footer-text{
+    align-items: baseline;
+    text-decoration: none;
+    color: #989898;
+}
+/* ==========MEDIA QUERIES========== */
+@media(max-width:650px){
+    body{
+        font-size: 1.5rem;
+    }
+    main{
+        max-width: 700px;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media(min-width:700px){
+    main{
+        padding: 0 3%;
+    }
+    .cont{
+        padding: 0;
+    }
+}
+@media(min-width:900px){
+    main{
+        padding: 0 12%;
+    
+    }
+  
+}
